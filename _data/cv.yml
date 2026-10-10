@@ -182,7 +182,7 @@ cv:
         releaseDate: 2024-01
         summary: Flow-guided deformable transformer for video object segmentation.
 
-      - title: Global Motion Understanding in Large-Scale Video Object Segmentation"
+      - title: Global Motion Understanding in Large-Scale Video Object Segmentation
         authors:
           - Igor Babin
         publisher: Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
