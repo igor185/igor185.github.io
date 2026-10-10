@@ -1,0 +1,199 @@
+cv:
+  name: Igor Babin
+  label: Machine Learning | Computer Vision Engineer
+  email: igor.babin185@gmail.com
+  location: Kyiv, Ukraine
+  image: ""
+  summary: Machine Learning Engineer with 6+ years of experience, including 2+ years as an ML Lead, specializing in Computer Vision, MLOps and Embedded AI. Passionate about transforming cutting-edge AI research into real-world products that reduce costs, improve efficiency, and create new customer experiences.
+
+  social_networks:
+    - network: GitHub
+      username: igor185
+    - network: LinkedIn
+      username: igor-babin
+
+  address:
+    city: Kyiv
+    countryCode: UA
+
+  sections:
+    Education:
+      - institution: Ukrainian Catholic University
+        location: Lviv, Ukraine
+        url: https://ucu.edu.ua/en/faculty-of-applied-sciences/
+        area: Computer Science (Data Science)
+        studyType: Master's degree, with honors
+        start_date: 2022
+        end_date: 2024
+        highlights:
+          - Thesis topic: "Image inpainting through refinement of features space"
+
+      - institution: National University of Kyiv-Mohyla Academy
+        location: Kyiv, Ukraine
+        url: https://ukma.edu.ua/
+        area: Applied Mathematics
+        studyType: Bachelor's degree
+        start_date: 2017
+        end_date: 2021
+
+    Experience:
+      - company: NDA (military, DefTech)
+        position: Senior Machine Learning / Computer Vision Engineer
+        location: Kyiv, Ukraine
+        start_date: 2025-06
+        end_date: present
+        summary: End-to-end computer vision solutions — from data collection and annotation preparation to model training, experimentation, and deployment on embedded devices with limited computational resources.
+        highlights:
+          - Proficient in Python, PyTorch, and MLflow for model development and optimization workflows
+          - Real-time deployment on hardware such as Raspberry Pi 5, Pi Zero, and Hailo NPUs
+          - Object detection, tracking, and visual navigation tasks
+          - Model compression techniques (distillation, pruning, quantization) to achieve real-time performance while maintaining robust accuracy
+
+      - company: Ukrainian Catholic University / SET University
+        position: Lecturer of Generative AI course (Computer Vision part) / Efficient Machine Learning
+        location: Lviv / Kyiv, Ukraine
+        start_date: 2024-09
+        end_date: present
+        summary: Preparing and delivering lectures on Generative Computer Vision for Master's students at UCU, and lecturing on Efficient Machine Learning at SET University.
+        highlights:
+          - Designing and teaching the Generative AI course (for M.Sc. students) — Computer Vision part
+          - Mentoring master's theses, helping future ML engineers grow their expertise
+
+      - company: ADVA Soft
+        position: Machine Learning Team Lead
+        location: Lviv, Ukraine
+        start_date: 2023-06
+        end_date: 2025-06
+        summary: Leads a team of machine learning engineers in developing and implementing machine learning models and systems. Provides technical leadership, manages project timelines, and ensures the successful delivery of ML-powered solutions on devices through the CoreML framework.
+        highlights:
+          - Lead a team of machine learning engineers, providing technical guidance and support
+          - Collaborate with other teams to help integrate ML solutions into projects
+          - Collaborate with product owners to define project requirements and goals
+          - Design and implement machine learning models and algorithms to evaluate and validate ML models' performance and accuracy
+          - Stay updated with the latest ML algorithms, frameworks, and techniques advancements
+
+      - company: ADVA Soft
+        position: Machine Learning Engineer | Computer Vision
+        location: Lviv, Ukraine
+        start_date: 2021-03
+        end_date: 2023-06
+        summary: Develop and implement machine learning models. Work closely with software engineers to build and deploy ML-powered solutions that address business challenges and enhance product functionality.
+        highlights:
+          - Develop and implement machine learning models and algorithms
+          - Integrate ML models into software systems and applications
+          - Optimize and fine-tune ML models for improved performance and accuracy
+
+      - company: AI Meetups
+        position: Lecturer
+        location: Lviv, Ukraine
+        start_date: 2023-10
+        end_date: 2024-06
+        highlights:
+          - Delivering lectures on various AI-related topics
+          - Searching for speakers in different domains
+          - Managing technical materials of other speakers
+
+      - company: mentor.sh
+        position: Mentor and Consultant
+        location: Kyiv, Ukraine
+        start_date: 2025-07
+        end_date: present
+
+      - company: Binary Studio
+        position: Software Engineer
+        location: Kyiv, Ukraine
+        start_date: 2019-06
+        end_date: 2020-09
+
+    Volunteer:
+      - company: Community meetups and hackathons
+        position: Speaker
+        location: Ukraine
+        start_date: 2024-01
+        end_date: present
+        summary: Seasonally delivering lectures on Computer Vision, Machine Learning, and AI topics at various meetups and hackathons, including Ukrainian Catholic University, AI House, AI meetups, and Kyiv AI Day.
+
+      - company: Conferences
+        position: Conference Reviewer
+        location: ""
+        start_date: 2026-01
+        end_date: present
+        summary: Serve as a conference reviewer evaluating paper quality for CVPR 2026 and ECCV 2026 submissions.
+
+    Awards:
+      - title: IYMC Gold Honour
+        date: ""
+        awarder: International Youth Math Challenge
+
+    Skills:
+      - name: Machine Learning / Computer Vision
+        level: Expert
+        icon: fa-solid fa-brain
+        keywords: "Object Detection, Tracking, Visual Navigation, Image Inpainting, Video Object Segmentation, Distillation, Pruning, Quantization"
+
+      - name: Embedded AI
+        level: Advanced
+        icon: fa-solid fa-microchip
+        keywords: "Raspberry Pi 5, Pi Zero, Hailo NPU, CoreML, Real-time Deployment, Model Compression"
+
+      - name: Frameworks & Tools
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, MLflow, MLOps, Experimentation Workflows"
+
+      - name: Leadership
+        level: Advanced
+        icon: fa-solid fa-people-group
+        keywords: "Team Leadership, Generative AI, Mentoring, Lecturing"
+
+    Languages:
+      - name: Ukrainian
+        summary: "Native or bilingual"
+
+      - name: English
+        summary: "Full professional proficiency"
+
+    Certificates:
+      - name: "TensorFlow: Advanced Techniques"
+        issuer: DeepLearning.AI
+        icon: fa-solid fa-certificate
+
+      - name: MLOps Mini-course
+        issuer: AI HOUSE
+        icon: fa-solid fa-gears
+
+      - name: TensorFlow Developer Certificate
+        issuer: Google
+        icon: fa-solid fa-certificate
+
+      - name: Deep Learning Specialization
+        issuer: DeepLearning.AI
+        icon: fa-solid fa-brain
+
+      - name: Strategic Leadership
+        issuer: ""
+        icon: fa-solid fa-people-group
+
+    Publications:
+      - title: "DeVOS: Flow-Guided Deformable Transformer for Video Object Segmentation"
+        authors:
+          - Igor Babin
+        publisher: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+        releaseDate: 2024-01
+        summary: Flow-guided deformable transformer for video object segmentation.
+
+      - title: Global Motion Understanding in Large-Scale Video Object Segmentation"
+        authors:
+          - Igor Babin
+        publisher: Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
+        releaseDate: 2023-06
+        summary: Global motion understanding for large-scale video object segmentation.
+
+    Interests:
+      - name: Computer Vision
+        icon: fa-solid fa-eye
+        keywords: "Video Object Segmentation, Image Inpainting, Generative Computer Vision"
+
+      - name: Embedded AI
+        icon: fa-solid fa-microchip
+        keywords: "Edge Deployment, Model Compression, Real-time Inference"
