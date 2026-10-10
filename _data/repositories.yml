@@ -1,14 +1,8 @@
+# this file contains the GitHub users and repositories displayed on the site
+# (used by the repositories section; add as many users and repos as you want)
 github_users:
-  - torvalds
-  - alshedivat
+  - igor185
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+github_repos: []
