@@ -1,11 +1,9 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: /assets/rendercv/rendercv_output/igor_babin_cv.pdf # link to your cv PDF
-toc: true
-toc_sticky: true
 ---
-# rendered via _data/cv.yml — edit that file to update this page
+<meta http-equiv="refresh" content="0; url=/assets/rendercv/rendercv_output/igor_babin_cv.pdf">
+<p>Redirecting to <a href="/assets/rendercv/rendercv_output/igor_babin_cv.pdf">CV PDF</a>…</p>

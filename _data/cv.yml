@@ -49,16 +49,6 @@ cv:
           - Object detection, tracking, and visual navigation tasks
           - Model compression techniques (distillation, pruning, quantization) to achieve real-time performance while maintaining robust accuracy
 
-      - company: Ukrainian Catholic University / SET University
-        position: Lecturer of Generative AI course (Computer Vision part) / Efficient Machine Learning
-        location: Lviv / Kyiv, Ukraine
-        start_date: 2024-09
-        end_date: present
-        summary: Preparing and delivering lectures on Generative Computer Vision for Master's students at UCU, and lecturing on Efficient Machine Learning at SET University.
-        highlights:
-          - Designing and teaching the Generative AI course (for M.Sc. students) — Computer Vision part
-          - Mentoring master's theses, helping future ML engineers grow their expertise
-
       - company: ADVA Soft
         position: Machine Learning Team Lead
         location: Lviv, Ukraine

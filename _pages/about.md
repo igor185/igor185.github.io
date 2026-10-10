@@ -13,11 +13,11 @@ profile:
     <p><a href="mailto:igor.babin185@gmail.com">igor.babin185@gmail.com</a></p>
     <p><a href="https://www.linkedin.com/in/igor-babin">LinkedIn</a> · <a href="https://github.com/igor185">GitHub</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -36,3 +36,28 @@ Alongside my industry work, I lecture on **Generative Computer Vision** at the [
 - **Video Object Segmentation** — global motion understanding, flow-guided deformable transformers
 - **Embedded AI & Edge Deployment** — model compression (distillation, pruning, quantization), real-time inference on Raspberry Pi and Hailo NPUs
 - **Generative Computer Vision** — image inpainting, feature-space refinement
+
+## Work experience
+
+{% for exp in site.data.cv.cv.sections.Experience %}
+  <div class="row">
+    <div class="col-sm-3">
+      <strong>{{ exp.company }}</strong><br>
+      {{ exp.start_date | date: "%b %Y" }} — {% if exp.end_date %}{{ exp.end_date | date: "%b %Y" }}{% else %}present{% endif %}
+    </div>
+    <div class="col-sm-9">
+      <strong>{{ exp.position }}</strong>
+      {% if exp.location %} · <em>{{ exp.location }}</em>{% endif %}
+      {% if exp.summary %}
+      <p>{{ exp.summary }}</p>
+      {% endif %}
+      {% if exp.highlights %}
+      <ul>
+        {% for highlight in exp.highlights %}
+        <li>{{ highlight }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
