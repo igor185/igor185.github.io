@@ -1,10 +1,10 @@
+# rendercv 2.8+ YAML input — schema: https://docs.rendercv.com/user_guide/yaml_input_structure/cv/
 cv:
   name: Igor Babin
-  label: Machine Learning | Computer Vision Engineer
+  headline: Machine Learning | Computer Vision Engineer
   email: igor.babin185@gmail.com
   location: Kyiv, Ukraine
-  image: ""
-  summary: Machine Learning Engineer with 6+ years of experience, including 2+ years as an ML Lead, specializing in Computer Vision, MLOps and Embedded AI. Passionate about transforming cutting-edge AI research into real-world products that reduce costs, improve efficiency, and create new customer experiences.
+  photo: profile_picture.jpg
 
   social_networks:
     - network: GitHub
@@ -12,27 +12,24 @@ cv:
     - network: LinkedIn
       username: igor-babin
 
-  address:
-    city: Kyiv
-    countryCode: UA
-
   sections:
+    Profile:
+      - "Machine Learning Engineer with 6+ years of experience, including 2+ years as an ML Lead, specializing in Computer Vision, MLOps and Embedded AI. Passionate about transforming cutting-edge AI research into real-world products that reduce costs, improve efficiency, and create new customer experiences."
+
     Education:
       - institution: Ukrainian Catholic University
         location: Lviv, Ukraine
-        url: https://ucu.edu.ua/en/faculty-of-applied-sciences/
         area: Computer Science (Data Science)
-        studyType: Master's degree, with honors
+        degree: Master's degree, with honors
         start_date: 2022
         end_date: 2024
         highlights:
-          - Thesis topic: "Image inpainting through refinement of features space"
+          - "Thesis topic: Image inpainting through refinement of features space"
 
       - institution: National University of Kyiv-Mohyla Academy
         location: Kyiv, Ukraine
-        url: https://ukma.edu.ua/
         area: Applied Mathematics
-        studyType: Bachelor's degree
+        degree: Bachelor's degree
         start_date: 2017
         end_date: 2021
 
@@ -105,85 +102,58 @@ cv:
 
       - company: Conferences
         position: Conference Reviewer
-        location: ""
         start_date: 2026-01
         end_date: present
         summary: Serve as a conference reviewer evaluating paper quality for CVPR 2026 and ECCV 2026 submissions.
 
     Awards:
-      - title: IYMC Gold Honour
-        date: ""
-        awarder: International Youth Math Challenge
+      - bullet: IYMC Gold Honour — International Youth Math Challenge
 
     Skills:
-      - name: Machine Learning / Computer Vision
-        level: Expert
-        icon: fa-solid fa-brain
-        keywords: "Object Detection, Tracking, Visual Navigation, Image Inpainting, Video Object Segmentation, Distillation, Pruning, Quantization"
-
-      - name: Embedded AI
-        level: Advanced
-        icon: fa-solid fa-microchip
-        keywords: "Raspberry Pi 5, Pi Zero, Hailo NPU, CoreML, Real-time Deployment, Model Compression"
-
-      - name: Frameworks & Tools
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, PyTorch, MLflow, MLOps, Experimentation Workflows"
-
-      - name: Leadership
-        level: Advanced
-        icon: fa-solid fa-people-group
-        keywords: "Team Leadership, Generative AI, Mentoring, Lecturing"
+      - label: Machine Learning / Computer Vision
+        details: Object Detection, Tracking, Visual Navigation, Image Inpainting, Video Object Segmentation, Distillation, Pruning, Quantization
+      - label: Embedded AI
+        details: Raspberry Pi 5, Pi Zero, Hailo NPU, CoreML, Real-time Deployment, Model Compression
+      - label: Frameworks & Tools
+        details: Python, PyTorch, MLflow, MLOps, Experimentation Workflows
+      - label: Leadership
+        details: Team Leadership, Generative AI, Mentoring, Lecturing
 
     Languages:
-      - name: Ukrainian
-        summary: "Native or bilingual"
-
-      - name: English
-        summary: "Full professional proficiency"
+      - label: Ukrainian
+        details: Native or bilingual
+      - label: English
+        details: Full professional proficiency
 
     Certificates:
-      - name: "TensorFlow: Advanced Techniques"
-        issuer: DeepLearning.AI
-        icon: fa-solid fa-certificate
-
-      - name: MLOps Mini-course
-        issuer: AI HOUSE
-        icon: fa-solid fa-gears
-
-      - name: TensorFlow Developer Certificate
-        issuer: Google
-        icon: fa-solid fa-certificate
-
-      - name: Deep Learning Specialization
-        issuer: DeepLearning.AI
-        icon: fa-solid fa-brain
-
-      - name: Strategic Leadership
-        issuer: ""
-        icon: fa-solid fa-people-group
+      - label: "TensorFlow: Advanced Techniques"
+        details: DeepLearning.AI
+      - label: MLOps Mini-course
+        details: AI HOUSE
+      - label: TensorFlow Developer Certificate
+        details: Google
+      - label: Deep Learning Specialization
+        details: DeepLearning.AI
+      - label: "Strategic Leadership"
+        details: ""
 
     Publications:
       - title: "DeVOS: Flow-Guided Deformable Transformer for Video Object Segmentation"
         authors:
           - Igor Babin
-        publisher: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-        releaseDate: 2024-01
+        journal: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+        date: 2024-01
         summary: Flow-guided deformable transformer for video object segmentation.
 
       - title: Global Motion Understanding in Large-Scale Video Object Segmentation
         authors:
           - Igor Babin
-        publisher: Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
-        releaseDate: 2023-06
+        journal: Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
+        date: 2023-06
         summary: Global motion understanding for large-scale video object segmentation.
 
     Interests:
-      - name: Computer Vision
-        icon: fa-solid fa-eye
-        keywords: "Video Object Segmentation, Image Inpainting, Generative Computer Vision"
-
-      - name: Embedded AI
-        icon: fa-solid fa-microchip
-        keywords: "Edge Deployment, Model Compression, Real-time Inference"
+      - label: Computer Vision
+        details: Video Object Segmentation, Image Inpainting, Generative Computer Vision
+      - label: Embedded AI
+        details: Edge Deployment, Model Compression, Real-time Inference

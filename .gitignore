@@ -24,3 +24,9 @@ pdfs/
 _site/
 vendor/
 .jekyll-cache/
+
+# rendercv output: PDF is tracked, other artifacts are not
+/assets/rendercv/rendercv_output/*.typ
+/assets/rendercv/rendercv_output/*.png
+!/assets/rendercv/rendercv_output/Igor_Babin_CV.pdf
+/rendercv_output/
